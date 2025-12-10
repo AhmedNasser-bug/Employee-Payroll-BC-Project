@@ -1,0 +1,9 @@
+
+1. Ensure Ganache is running on port 7545.
+2. Run command: 'npx truffle migrate --reset'
+3. Observe the terminal output.
+4. Verify you see lines like:
+   - "Adding Employee: 0x..."
+   - "Funding Contract..."
+   - "Executing First Payroll..."
+5. Verify no red error text appears.
