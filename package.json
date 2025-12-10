@@ -1,0 +1,16 @@
+{
+  "name": "employee-payroll-project",
+  "version": "1.0.0",
+  "description": "Employee Payroll Smart Contract Project",
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "dev": "ganache"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "truffle": "^5.11.5",
+    "ganache": "^7.9.1"
+  }
+}

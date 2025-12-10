@@ -1,0 +1,17 @@
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Truffle build artifacts
+build/
+
+# Ganache logs
+*.log
+
+# Python cache (if any scripts are run inside)
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.DS_Store

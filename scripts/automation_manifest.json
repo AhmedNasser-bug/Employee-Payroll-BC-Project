@@ -1,0 +1,8 @@
+{
+    "project_name": "EmployeePayroll",
+    "contract_file": "contracts/EmployeePayroll.sol",
+    "deploy_script": "migrations/2_deploy_contracts.js",
+    "hooks": {
+        "contract_body": "<PYTHON_HOOK_ADD_FUNCTION>"
+    }
+}
