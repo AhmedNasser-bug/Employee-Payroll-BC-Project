@@ -11,6 +11,6 @@
   "dependencies": {},
   "devDependencies": {
     "truffle": "^5.11.5",
-    "ganache": "^7.9.1"
+    "ganache": "^7.9.2"
   }
 }

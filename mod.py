@@ -3,7 +3,7 @@ import sys
 
 # Ensure we can import git_utils from the current directory
 try:
-    from git_utils import start_feature
+    from git_utils import start_feature, finish_feature
 except ImportError:
     print("[!] Error: git_utils.py not found. Make sure you are inside 'EmployeePayrollProject'.")
     sys.exit(1)
@@ -74,4 +74,5 @@ validation_steps = """
 if __name__ == "__main__":
     # Execute the feature workflow
     # This will: Create Branch -> Modify File -> Commit -> Save Validation Steps
-    start_feature(add_simulation_to_migration, validation_steps)
+    #start_feature(add_simulation_to_migration, validation_steps)
+    finish_feature()
